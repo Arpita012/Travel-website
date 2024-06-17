@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav  class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Travel Webpage</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button  class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="image/Rajasthan.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/main1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="image/jaipur.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <h2 class="container">Some Places</h2>
+          <div class="container">
+            <div class="card" style="width: 18rem;">
+                <img src="image/Agra.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Agra</h5>
+                  <p class="card-text">The Taj Mahal is an ivory-white marble mausoleum on the right bank of the river Yamuna in Agra, Uttar Pradesh, India.</p>
+                  <a href="https://en.wikipedia.org/wiki/Taj_Mahal" class="btn btn-primary">Know more</a>
+                  <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#bookNowModal">BOOK NOW</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="image/amrutsar.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Golden Temple</h5>
+                  <p class="card-text">The Golden Temple is a gurdwara located in the city of Amritsar, Punjab, India. It is the preeminent spiritual site of Sikhism. </p>
+                  <a href="https://en.wikipedia.org/wiki/Golden_Temple" class="btn btn-primary">Know more</a>
+                  <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#bookNowModal">BOOK NOW</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="image/goa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Goa</h5>
+                  <p class="card-text">Goa is a state in western India with coastlines stretching along the Arabian Sea. Goa is also known for its beaches, ranging.</p>
+                  <a href="https://en.wikipedia.org/wiki/Goa" class="btn btn-primary">Know more</a>
+                  <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#bookNowModal">BOOK NOW</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="image/coorg.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Coorg</h5>
+                  <p class="card-text">Kodagu, also known as Coorg, is a rural district in the southwest Indian state of Karnataka. It is famous for its tea and coffee.</p>
+                  <a href="https://en.wikipedia.org/wiki/Kodagu_district" class="btn btn-primary">Know more</a>
+                  <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#bookNowModal">BOOK NOW</a>
+                </div>
+              </div>
+          </div>
+          <div class="container">
+              <div class="card" style="width: 18rem;">
+                <img src="image/manaliii.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Manali</h5>
+                  <p class="card-text"> Manali is a high-altitude Himalayan resort town in India’s northern Himachal Pradesh state. It has reputation as abackpacking center and honeymoon destination.</p>
+                  <a href="https://en.wikipedia.org/wiki/Manali,_Himachal_Pradesh" class="btn btn-primary">Know more</a>
+                  <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#bookNowModal">BOOK NOW</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="image/velly.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Velly of Flowers</h5>
+                  <p class="card-text">Valley of Flowers National Park is an Indian national park which was established in 1982. It is located in Chamoli in the state of Uttarakhand and is known for its flowers.</p>
+                  <a href="https://en.wikipedia.org/wiki/Valley_of_Flowers_National_Park" class="btn btn-primary">Know more</a>
+                  <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#bookNowModal">BOOK NOW</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="image/PONDICHERRY.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Pondicherry</h5>
+                  <p class="card-text">Pondicherry (or Puducherry), a French colonial settlement in India until 1954, is now a Union Territory town bounded by the southeastern Tamil Nadu state.</p>
+                  <a href="https://en.wikipedia.org/wiki/Pondicherry" class="btn btn-primary">Know more</a>
+                  <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#bookNowModal">BOOK NOW</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="image/jaipur.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Jaipur</h5>
+                  <p class="card-text">Jaipur is the capital city of Rajasthan and also known as the “pink city” by tourists and travellers.The name “pink city” has been awarded to Jaipur because of the pink hue casted by hundreds of homes.</p> 
+                  <a href="https://en.wikipedia.org/wiki/Jaipur" class="btn btn-primary">Know more</a>
+                  <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#bookNowModal">BOOK NOW</a>
+                </div>
+              </div>
+          </div>
+          <div class="container">
+            <div class="card" style="width: 18rem;">
+                <img src="image/UDAIPUR.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Udaipur</h5>
+                  <p class="card-text">Udaipur was discovered by Maharana Udai Singh in 1553. In the year 2009, Udaipur was named the best city in the world by a magazine. Udaipur is famous for its lakes, beautiful palaces, mountains, rooms and tiger gardens.</p>
+                  <a href="https://en.wikipedia.org/wiki/Udaipur" class="btn btn-primary">Know more</a>
+                  <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#bookNowModal">BOOK NOW</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="image/Rajasthan.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Rajasthan</h5>
+                  <p class="card-text">Some of the major tourist centers of Rajasthan are Jantar Mantar, Hawa Mahal, Lake Pichola, City Palace of Udaipur, Mehrangarh, Nahargarh and Jaisalmer Fort, Ranthambore National Park, Bagore ki Haveli Museum, Jaigarh Fort.</p>
+                  <a href="https://en.wikipedia.org/wiki/Rajasthan" class="btn btn-primary">Know more</a>
+                  <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#bookNowModal">BOOK NOW</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="image/Qutub-Minar.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Qutub-Minar</h5>
+                  <p class="card-text">Qutub-Minar is a minaret and "victory tower" that forms part of the Qutb complex, which lies at the site of Delhi’s oldest fortified city, Lal Kot, founded by the Tomar Rajputs.</p>
+                  <a href="https://en.wikipedia.org/wiki/Qutb_Minar" class="btn btn-primary">Know more</a>
+                  <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#bookNowModal">BOOK NOW</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="image/wayanad.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Wayanad</h5>
+                  <p class="card-text">Wayanad is a rural district in Kerala state, southwest India. In the east, the Wayanad Wildlife Sanctuary is a lush, forested region with areas of high altitude, home to animals including Asiatic elephants, tigers and leopards.</p>
+                  <a href="https://en.wikipedia.org/wiki/Wayanad_district" class="btn btn-primary">Know more</a>
+                  <a href="#" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#bookNowModal">BOOK NOW</a>
+                </div>
+              </div>
+          </div>
+          <div class="container">
+            <div class="d-flex position-relative">
+                <img src="image/Charminar.jpg" class="flex-shrink-0 me-3" alt="...">
+                <div>
+                  <h5 class="mt-0">Charminar</h5>
+                  <p>The Charminar is a monument located in Hyderabad, Telangana, India. It  is famous for its intricate architecture, which makes it one of the most recognized structures of India. Charminar was built to acknowledge the elimination of the plague which had affected the entire city immensely during that era. It is believed that the Sultan had prayed for the end of this plague with which his people were suffering. </p>
+                  <a href="https://en.wikipedia.org/wiki/Charminar" class="stretched-link">Know more</a>           
+                </div>
+              </div>
+          </div>
+          <div align="center" class="buttun_navbar">
+            <a href=""><img class="link" src="image/mail.png" alt=""></a>
+            <a href=""><img class="link" src="image/instagram.png" alt=""></a>
+            <a href=""><img class="link" src="image/whatsapp.png" alt=""></a>
+        </div>
+
+      
+        <div class="modal fade" id="bookNowModal" tabindex="-1" aria-labelledby="bookNowModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="bookNowModalLabel">Book Your Travel</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <form id="bookingForm">
+                    <div class="mb-3">
+                      <label for="destination" class="form-label">Destination</label>
+                      <input type="text" class="form-control" id="destination" readonly>
+                    </div>
+                    <div class="mb-3">
+                      <label for="name" class="form-label">Name</label>
+                      <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="email" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="email" required>
+                    </div>
+                    <div class="mb-3">
+                      <label for="date" class="form-label">Travel Date</label>
+                      <input type="date" class="form-control" id="date" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                const bookButtons = document.querySelectorAll('.btn-secondary');
+                bookButtons.forEach(button => {
+                    button.addEventListener('click', function(event) {
+                        const card = event.target.closest('.card');
+                        const title = card.querySelector('.card-title').innerText;
+                        document.getElementById('destination').value = title;
+                        console.log('Destination selected:', title);
+                    });
+                });
+        
+                document.getElementById('bookingForm').addEventListener('submit', async function(event) {
+                    event.preventDefault();
+                    const form = event.target;
+                    const bookingData = {
+                        destination: form.destination.value,
+                        name: form.name.value,
+                        email: form.email.value,
+                        date: form.date.value
+                    };
+        
+                    try {
+                        const response = await fetch('http://localhost:3000/api/book', {
+                            method: 'POST',
+                            headers: {
+                                'Content-Type': 'application/json'
+                            },
+                            body: JSON.stringify(bookingData)
+                        });
+        
+                        if (response.ok) {
+                            alert('Booking submitted successfully!');
+                            form.reset();
+                            var modal = bootstrap.Modal.getInstance(document.getElementById('bookNowModal'));
+                            modal.hide();
+                        } else {
+                            const errorData = await response.json();
+                            alert(`Error: ${errorData.message}`);
+                        }
+                    } catch (error) {
+                        alert('Error submitting booking. Please try again later.');
+                        console.error('Error submitting booking:', error);
+                    }
+                });
+            });
+        </script>     
+</body>
+</html>

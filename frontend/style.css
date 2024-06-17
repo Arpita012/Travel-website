@@ -1,0 +1,22 @@
+.navbar{
+    height: 80px;
+    background-color: aquamarine;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    margin: 20px;
+}
+.position-relative img{
+    height: 300px;
+    width: 300px;
+
+}
+.link{
+    display: inline;
+    margin:10px;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(91, 153, 155);
+}
